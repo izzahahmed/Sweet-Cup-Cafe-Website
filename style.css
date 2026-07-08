@@ -1,0 +1,185 @@
+
+body {
+    background-color: lavenderblush;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #444;
+}
+header {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:18px 60px;
+    background-color:rgb(255,182,193);
+}
+.logo h1 {
+    color:white;
+    font-size: 42px;
+    font-style: italic;
+}
+nav {
+    display: flex;
+    gap: 45px;
+    align-items: center;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+nav a:hover {
+    color: deeppink;
+}
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 70px 60px;
+}
+.hero-text{
+    width: 45%;
+}
+.hero-text h2 {
+     font-size:68px;
+     color: deeppink;
+     font-weight: bold;
+     line-height: 1.1;
+     margin-bottom: 25px;
+}
+.hero-text p {
+    font-size: 22px;
+    line-height: 1.8;
+    color: #555;
+    margin-bottom: 35px;
+}
+.hero-img {
+    width: 45%;
+    text-align: right;
+}
+.hero-img img {
+     width: 100%;
+     max-width: 500px;
+    border-radius: 20px;
+}
+.buttons {
+    display: flex;
+    gap: 20px;
+}
+.cafe-btn {
+    background-color: deeppink;
+    color: white;
+    text-decoration: none;
+    padding: 12px 24px;
+    border-radius: 30px;
+    font-weight: bold;
+}
+.cafe-btn:hover {
+    background-color: rgb(197, 7, 108);
+}
+.about {
+    text-align: center;
+    padding: 70px 80px;
+}
+.about h2 {
+    color: deeppink;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.about p {
+    font-size: 18px;
+    line-height: 1.8;
+    max-width: 800px;
+    margin: auto;
+}
+footer{
+ background-color: rgb(255, 182, 193);
+ padding: 25px;
+line-height: 2;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.footer-text {
+    display: flex;
+    flex-direction: column;
+}
+.footer-text p {
+    margin: 0; 
+}
+.footer-img img {
+    max-width: 180px;
+    height: auto;     
+    display: block;
+}
+#menu-heading{
+    color: rgb(197,7,108);
+    font-size: 48px;
+    font-style: italic;
+    font-family: "Brush Script MT", cursive;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 5px pink;
+    margin-bottom: 40px;
+}
+#reservation-heading{
+    color: rgb(197,7,108);
+    font-size: 45px;
+    font-style: italic;
+    font-family: "Brush Script MT", cursive; 
+    margin-top: 30px;
+}
+
+form{
+    background-color: white;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+label{
+    color: rgb(197,7,108);
+    font-weight: bold;
+}
+
+input{
+    width: 100%;
+    padding: 10px;
+    border: 2px solid pink;
+    border-radius: 10px;
+}
+
+input[type="submit"]{
+    width: auto;
+    background-color: deeppink;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover{
+    background-color: rgb(197,7,108);
+}
+#contact-heading{
+    color: rgb(197,7,108);
+    font-size: 45px;
+    font-style: italic;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    font-family: "Brush Script MT", cursive; 
+}
+
+table{
+    font-size:20px;
+}
+
+table td{
+    padding:15px;
+}
+
+table img{
+    border-radius:10px;
+}
+
+.col-lg-6 img{
+    border-radius:20px;
+}
